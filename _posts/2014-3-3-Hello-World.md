@@ -1,10 +1,17 @@
 ---
 layout: post
-title: You're up and running!
+title: Registros de vehículos en el RUNT
+published: true
 ---
+## Introducción
+Este es un trabajo para el curso de aprendizaje estadístico de la universidad Nacional de Colombia sede Medellín, cuyo objetivo es poder construir un modelo estadistico que permita predecir el número de autos registrados diariamente en el Registro Único Nacional de Tránsito (RUNT).
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+## DESCRIPCION DE VARIABLES
+En las variables se decidieron incluir 3 variables macroeconómicas importantes a la hora de vender un vehículo, estas son la TRM que es la tasa representativa de mercado (se calcula como el promedio aritmético de las tasas ponderadas de las operaciones de compra y de venta de dólares de los Estados Unidos de América a cambio de moneda legal Colombiana), las tasas de colocación del banco de la república y el PIB.
+Periodicidades de las variables macro:
+ -PIB: trimestral
+ -TRM: diaria
+ -TC: mensuaL
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/img_1.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
