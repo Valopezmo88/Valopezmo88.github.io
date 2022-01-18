@@ -18,27 +18,27 @@ Aunque en 2016 el dólar logró treparse a los $3.400 en el primer trimestre, lo
 
 
 ## DESCRIPCION DE VARIABLES
-1.Se decide crear variables a partir de la fecha, obteniendo variables como día, mes y año, también se obtuvo el dia de la semana: lunes, martes, miercoles, jueves, viernes, sabado o domingo.
+**1.** Se decide crear variables a partir de la fecha, obteniendo variables como día, mes y año, también se obtuvo el dia de la semana: lunes, martes, miercoles, jueves, viernes, sabado o domingo.
 
-2.Se crearon variables indicadoras para los días festivos, semana santa y para la semana del salón internacional del automovil el cual es celebrado cada dos años. 
+**2.** Se crearon variables indicadoras para los días festivos, semana santa y para la semana del salón internacional del automovil el cual es celebrado cada dos años. 
 
-3.Se decide incluir 3 variables macroeconómicas importantes a la hora de vender un vehículo y estas son: 
+**3.** Se decide incluir 3 variables macroeconómicas importantes a la hora de vender un vehículo y estas son: 
 
--La TRM que es la tasa representativa de mercado.
+   **-** La TRM que es la tasa representativa de mercado.
 
 se calcula como el promedio aritmético de las tasas ponderadas de las operaciones de compra y de venta de dólares de los Estados Unidos de América a cambio de moneda legal Colombiana (Banco de la República,s.f.)
 
--Las tasas de colocación del banco de la república.
+   **-** Las tasas de colocación del banco de la república.
 
--El PIB.
+   **-** El PIB.
 
 Estas variables macro son registradas con las siguientes periodicidades:
 
- -PIB: trimestral
+   **-** PIB: trimestral
  
- -TRM: diaria
+   **-** TRM: diaria
  
- -TC: mensuaL
+   **-** TC: mensuaL
 
 
 
@@ -70,16 +70,28 @@ Para la selección de variables se utiliza el criterio del mejor subconjunto que
 
 ![_config.yml]({{ site.baseurl }}/images/img7.png)
  
-**-** En la figura 5 el mejor subconjunto es el de la tasa de colocación y el PIB con un rezago, la indicadora de festivos y semana santa y por el lado de los factores los días de la semana y los meses, teniendo asi un R cuadrado del 74%.
+  **-** En la figura 5 el mejor subconjunto es el de la tasa de colocación y el PIB con un rezago, la indicadora de festivos y semana santa y por el lado de los factores los días de la semana y los meses, teniendo asi un R cuadrado del 74%.
 
-**-** En la figura 6, el conjunto de variables que tiene el menor BIC es el mismo que el mencionado para el R2 incluyendo ademas la TRM rezagada 8 días.
+  **-** En la figura 6, el conjunto de variables que tiene el menor BIC es el mismo que el mencionado para el R2 pero incluyendo ademas la TRM rezagada 8 días.
 
-**-** En la figura 7,El conjunto de variables que tiene el menor Cp de Mallows es el mismo que para el del BIC.
+  **-** En la figura 7, el conjunto de variables que tiene el menor Cp de Mallows es el mismo que para el del BIC.
 
-#Teniendo en cuenta los resultados obt
+Teniendo en cuenta los resultados obtenidos las variables que se incluyen en los modelos son las mostradas en la tabla 1.
+
+![_config.yml]({{ site.baseurl }}/images/tabla1.png)
+
 
 ## MODELAMIENTO
-Para hacer las pruebas respectivas al modelo se toma desde 2012 hasta 2016 para hacer el entrenamiento del modelo y el 2017 para hacer el test.
+Para hacer las pruebas respectivas al modelo se toma desde 2012 hasta 2016 para hacer el entrenamiento del mismo y el 2017 para hacer la validación. 
+
+Se decide usar tres metodologias diferentes y ponerlas en competencia para seleccionar el modelo con mejor desempeño teniendo en cuenta: R cuadrado para los datos de entrenamiento y validación, la consistencia del mismo para tener en cuenta el criterio de revisión y prevenir que haya una diferencia mayor al 10%.
+
+### Metodologias:
+**1.** Modelos lineales. 
+
+**2.** Modelos lineales generalizados (GLM): familia Poisson.
+
+**3.** Modelos aditivos generalizados para locación, escala y forma (GAMLSS)
 
 
 ## BIBLIOGRAFIA
