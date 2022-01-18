@@ -78,7 +78,7 @@ Teniendo en cuenta los resultados obtenidos las variables que se incluyen en los
 
 ![_config.yml]({{ site.baseurl }}/images/tabla1.png)
 
-
+Cabe resaltar que las variables macroeconómicas probadas dentro del modelo se rezagan varios periodos para probar su desempeño, la finalidad de esto es para cuando sean necesarios pronósticos futuros se trabaje con el último valor real observado y no con un pronóstico de la misma. 
 
 ## Modelamiento
 Para hacer las pruebas respectivas al modelo se toma desde 2012 hasta 2016 para hacer el entrenamiento de este y el 2017 para hacer la validación. 
