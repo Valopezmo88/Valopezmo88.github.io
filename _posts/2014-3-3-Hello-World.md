@@ -98,7 +98,8 @@ En la tabla 2 se evidencia que para el conjunto de entrenamiento todos los model
 
 Finalmente se elige el modelo GAMLSS dada sus consistencia entre ambos conjuntos pues su cambio o disminucion en el desempeño es del 8.7%.
 
-
+## Repositorio
+El código de este trabajo se encuentra en: [https://github.com/Valopezmo88/runt_tae](https://github.com/Valopezmo88/runt_tae)
 
 
 ## Bibliografia
@@ -111,6 +112,3 @@ Diaz, V. P. (2013). La Republica.
 Mantilla, Ó. J. (2018). El carro colombiano revista virtual. Obtenido de [https://www.elcarrocolombiano.com/industria/2010-2018-el-sector-automotor-colombiano-en-tiempos-de-juan-manuel-santos/](https://www.elcarrocolombiano.com/industria/2010-2018-el-sector-automotor-colombiano-en-tiempos-de-juan-manuel-santos/)
 
 Amat Rodrigo, J. (2020). GAMLSS: modelos aditivos generalizados para posición, escala y forma. Recuperado 14 de enero de 2022, de [https://rpubs.com/Joaquin_AR/603234 ](https://rpubs.com/Joaquin_AR/603234 )
-
-
-
