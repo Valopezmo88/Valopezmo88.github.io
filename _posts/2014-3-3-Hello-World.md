@@ -20,23 +20,11 @@ Aunque en 2016 el dólar logró treparse a los $3.400 en el primer trimestre, lo
 
 **3.** Se decide incluir 3 variables macroeconómicas importantes a la hora de vender un vehículo y estas son: 
 
-   **-** La TRM que es la tasa representativa de mercado.
+   **-** La TRM que es la tasa representativa de mercado con periodicidad diaria: se calcula como el promedio aritmético de las tasas ponderadas de las operaciones de compra y de venta de dólares de los Estados Unidos de América a cambio de moneda legal Colombiana (Banco de la República, s.f.)
 
-se calcula como el promedio aritmético de las tasas ponderadas de las operaciones de compra y de venta de dólares de los Estados Unidos de América a cambio de moneda legal Colombiana (Banco de la República, s.f.)
+   **-** Las tasas de colocación del banco de la república con periodicidad mensual.
 
-   **-** Las tasas de colocación del banco de la república.
-
-   **-** El PIB.
-
-Estas variables macro son registradas con las siguientes periodicidades:
-
-   **-** PIB: trimestral.
- 
-   **-** TRM: diaria.
- 
-   **-** TC: mensual.
-
-
+   **-** El PIB con periodicidad trimestral.
 
 
 ## Análisis descriptivo
