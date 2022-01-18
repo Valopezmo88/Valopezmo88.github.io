@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Registros de vehículos en el RUNT
+title: ''
 published: true
 ---
-Este es un trabajo para el curso de aprendizaje estadístico de la universidad Nacional de Colombia sede Medellín, cuyo objetivo es poder construir un modelo estadistico que permita predecir el número de autos registrados diariamente en el Registro Único Nacional de Tránsito (RUNT).
+Este es un trabajo para el curso de aprendizaje estadístico de la universidad Nacional de Colombia sede Medellín, cuyo objetivo es poder construir un modelo estadistico que permita predecir el número de vehiculos registrados diariamente en el Registro Único Nacional de Tránsito (RUNT).
 
 ## Introducción
 En el año 2014, tiempo en el que los colombianos se preparaban para ir nuevamente a votaciones para Congreso y Presidente Durante el primer semestre del año, los niveles de comercialización mensuales preveían un cierre de mercado entre las 310.000 a 315.000 unidades. A partir de septiembre, los registros superan los 30.000 ejemplares al mes, llegando a los 32.355 carros entregados en diciembre por efecto del Salón del Automóvil. Así, el promedio por mes fue de 28.305 automotores (Mantilla, 2018). 
