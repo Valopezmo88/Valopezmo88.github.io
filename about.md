@@ -5,8 +5,11 @@ permalink: /about/
 ---
 
 Este trabajo fue realizado por tres estudiantes de estadística de la Universidad Nacional de Colombia - Sede Medellín
+
 Marisol Gonzalez Madrid
+
 David Alejandro Hernandez Perez
+
 Valentina Lopez Montoya
 
 ### Contact me
