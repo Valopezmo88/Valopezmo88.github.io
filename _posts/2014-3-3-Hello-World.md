@@ -93,6 +93,7 @@ Las familias que se tuvieron en cuenta para los modelos GLM y GAMLSS son discret
 
 
 ![_config.yml]({{ site.baseurl }}/images/tabla2.png)
+
 En la tabla 2 se evidencia que para el conjunto de entrenamiento todos los modelos propuestos presentan un R cuadrado superior al 82%, siendo el de mejor desempeño el modelo GLM con un 87.6% para este conjunto. Luego, para el conjunto de validacion se evidencia que el modelo lineal presenta una disminución significativa del R cuadrado con un valor del 66.7% mientras que los modelos GLM y GAMLSS presentan una metrica superior al 75%.
 
 Finalmente se elige el modelo GAMLSS dada sus consistencia entre ambos conjuntos pues su cambio o disminucion en el desempeño es del 8.7%.
@@ -101,15 +102,15 @@ Finalmente se elige el modelo GAMLSS dada sus consistencia entre ambos conjuntos
 
 
 ## Bibliografia
-Banco de la República. (s.f.). Tasa de cambio del peso colombiano. Colombia. Obtenido de https://www.banrep.gov.co/es/glosario/trm
+Banco de la República. (s.f.). Tasa de cambio del peso colombiano. Colombia. Obtenido de [https://www.banrep.gov.co/es/glosario/trm](https://www.banrep.gov.co/es/glosario/trm)
 
 A., L. M. (1989). Determininates de la demanda de vehiculos en Colombia. Bogota.
 
 Diaz, V. P. (2013). La Republica. 
 
-Mantilla, Ó. J. (2018). El carro colombiano revista virtual. Obtenido de https://www.elcarrocolombiano.com/industria/2010-2018-el-sector-automotor-colombiano-en-tiempos-de-juan-manuel-santos/
+Mantilla, Ó. J. (2018). El carro colombiano revista virtual. Obtenido de [https://www.elcarrocolombiano.com/industria/2010-2018-el-sector-automotor-colombiano-en-tiempos-de-juan-manuel-santos/](https://www.elcarrocolombiano.com/industria/2010-2018-el-sector-automotor-colombiano-en-tiempos-de-juan-manuel-santos/)
 
-Amat Rodrigo, J. (2020). GAMLSS: modelos aditivos generalizados para posición, escala y forma. Recuperado 14 de enero de 2022, de https://rpubs.com/Joaquin_AR/603234 
+Amat Rodrigo, J. (2020). GAMLSS: modelos aditivos generalizados para posición, escala y forma. Recuperado 14 de enero de 2022, de [https://rpubs.com/Joaquin_AR/603234 ](https://rpubs.com/Joaquin_AR/603234 )
 
 
 
