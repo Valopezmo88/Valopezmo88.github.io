@@ -43,27 +43,40 @@ Estas variables macro son registradas con las siguientes periodicidades:
 
 
 ## ANÁLISIS DESCRIPTIVO
-Se realiza una revisión del comportamiento historico del numero de registros teniendo en cuenta el mes, el dia de la semana y el año. Los resultados obtenidos se muestran en las figura 1, figura 2, figura 3 y figura 4
+Se realiza una revisión del comportamiento historico del numero de registros teniendo en cuenta el mes, el dia de la semana y el año. Los resultados obtenidos se muestran a continuación:
 
 ![_config.yml]({{ site.baseurl }}/images/img_1.png)
 En la figura 1 se evidencia el total de registros diarios para cada mes, evidenciando que los meses de junio, octubre, noviembre y diciembre tienen una mayor dispersion en los datos, tambien se muestra el comportamiento creciente con el paso de los meses a partir de septiembre; siendo diciembre el mes del año con mayor numero de registros. Las primas de mitad y final de año pueden ser un indicador de este comportamiento.
 
 
 ![_config.yml]({{ site.baseurl }}/images/img_2.png)
-Esta grafica es muy similar a la que se presento en el item anterior, se evidencia el comportamiento creciente en los ultimos tres meses de cada año, pero a su vez, nos muestra como los años 2012 y 2013 presentan una mayor concentración y los años 2016 y 2017 tienen presencia de algunos valores extremos.
+La figura 2 es muy similar a la que se presento en el item anterior, se evidencia el comportamiento creciente en los ultimos tres meses de cada año, pero a su vez, nos muestra como los años 2012 y 2013 presentan una mayor concentración y los años 2016 y 2017 tienen presencia de algunos valores extremos.
 
 
 ![_config.yml]({{ site.baseurl }}/images/img_3.png)
+En la figura 3 se tiene en cuenta el numero de registros mensuales en el RUNT y se desagrega para cada uno de los años de historia, aca se puede evidenciar como los años 2014 y 2016 tienen un pico de crecimiento mas pronunciado que los demas años. Tambien se ve que en el 2017 (periodo de validación) no es tan drastico el crecimiento de noviembre a diciembre.
 
 
-![_config.yml]({{ site.baseurl }}/images/img_4.png)
 
-![_config.yml]({{ site.baseurl }}/images/img_5.png)
+![_config.yml]({{ site.baseurl }}/images/img4.png)
+En la figura 4 se hace la separación por día de la semana, donde se evidencia una disminución en los registros muy significativa para los días sábado y domingo, por el contrario los dias en los que se registran mas vehiculos son los jueves y los viernes.
 
-![_config.yml]({{ site.baseurl }}/images/img_6.png)
+### Criterio de seleccion de variables:
+Para la selección de variables se utiliza el criterio del mejor subconjunto que tiene en cuenta todas las variables y muestra los resultados del R cuadrado ajustado, el BIC y el Cp de Mallows.
 
-![_config.yml]({{ site.baseurl }}/images/img_7.png)
+![_config.yml]({{ site.baseurl }}/images/img5.png)
 
+![_config.yml]({{ site.baseurl }}/images/img6.png)
+
+![_config.yml]({{ site.baseurl }}/images/img7.png)
+ 
+**-** En la figura 5 el mejor subconjunto es el de la tasa de colocación y el PIB con un rezago, la indicadora de festivos y semana santa y por el lado de los factores los días de la semana y los meses, teniendo asi un R cuadrado del 74%.
+
+**-** En la figura 6, el conjunto de variables que tiene el menor BIC es el mismo que el mencionado para el R2 incluyendo ademas la TRM rezagada 8 días.
+
+**-** En la figura 7,El conjunto de variables que tiene el menor Cp de Mallows es el mismo que para el del BIC.
+
+#Teniendo en cuenta los resultados obt
 
 ## MODELAMIENTO
 Para hacer las pruebas respectivas al modelo se toma desde 2012 hasta 2016 para hacer el entrenamiento del modelo y el 2017 para hacer el test.
