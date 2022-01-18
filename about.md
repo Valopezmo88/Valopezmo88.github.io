@@ -15,5 +15,7 @@ Valentina Lopez Montoya
 ### Contact me
 
 [mgonzalezmad@unal.edu.co](mgonzalezmad@unal.edu.co)
+
 [davahernandezper@unal.edu.co](davahernandezper@unal.edu.co)
+
 [valopezmo@unal.edu.co](valopezmo@unal.edu.co)
