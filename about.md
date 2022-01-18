@@ -12,7 +12,7 @@ David Alejandro Hernandez Perez
 
 Valentina Lopez Montoya
 
-### Contact me
+### Contact us
 
 [mgonzalezmad@unal.edu.co](mgonzalezmad@unal.edu.co)
 
