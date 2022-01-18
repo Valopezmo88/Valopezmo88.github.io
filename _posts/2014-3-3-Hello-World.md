@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''
+title: Predicción de registros diarios en el RUNT
 published: true
 ---
 Este es un trabajo para el curso de aprendizaje estadístico de la universidad Nacional de Colombia sede Medellín, cuyo objetivo es poder construir un modelo estadistico que permita predecir el número de vehiculos registrados diariamente en el Registro Único Nacional de Tránsito (RUNT).
