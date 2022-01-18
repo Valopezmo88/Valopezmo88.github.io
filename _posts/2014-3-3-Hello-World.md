@@ -6,11 +6,7 @@ published: true
 ## Introducción
 Este es un trabajo para el curso de aprendizaje estadístico de la universidad Nacional de Colombia sede Medellín, cuyo objetivo es poder construir un modelo estadistico que permita predecir el número de autos registrados diariamente en el Registro Único Nacional de Tránsito (RUNT).
 
-La venta de vehículos en el año 2013 a 2018, se vio marcada por la venta de vehículos con un comportamiento en el marcado bajo e inestable, ciertas causas que explican esto son las políticas rígidas de la industria ensamble y autopartes (comprende la actividad del montaje de motores, la fabricación de partes y piezas de vehículos utilizadas en el ensamble y como repuestos) y finalmente la llegada de vehículos híbridos y eléctricos (Mantilla, 2018) (A., 1989).
-
-En el año 2013 las ventas de autos no fueron nada buenas en la mayoría de los meses, aunque el sector asegura, que es lógica una caída de este tipo tras dos años de comercialización récord de unidades, en donde se percibieron pequeños indicios perpetuar esta tendencia negativa en lo que resta del año; excepto en el último trimestre en donde el banco de la republica tuvo que reducir la tasa de interés, pero esto no evito en decreciente 5,2% en la venta de vehículos. La venta de vehículos nuevos de enero y febrero de 2013 fue menor a los mismos meses del año pasado, un 4,96% y 11,98% respectivamente (Diaz, 2013).
-
-Llegamos a 2014, tiempo en el que los colombianos se preparaban para ir nuevamente a votaciones para Congreso y Presidente Durante el primer semestre del año, los niveles de comercialización mensuales preveían un cierre de mercado entre las 310.000 a 315.000 unidades. A partir de septiembre, los registros superan los 30.000 ejemplares al mes, llegando a los 32.355 carros entregados en diciembre por efecto del Salón del Automóvil. Así, el promedio por mes fue de 28.305 automotores (Mantilla, 2018). 
+En el año 2014, tiempo en el que los colombianos se preparaban para ir nuevamente a votaciones para Congreso y Presidente Durante el primer semestre del año, los niveles de comercialización mensuales preveían un cierre de mercado entre las 310.000 a 315.000 unidades. A partir de septiembre, los registros superan los 30.000 ejemplares al mes, llegando a los 32.355 carros entregados en diciembre por efecto del Salón del Automóvil. Así, el promedio por mes fue de 28.305 automotores (Mantilla, 2018). 
 
 A partir del 2015 empezaron los problemas. Aunque el primer trimestre fue bueno gracias al impulso del Salón del Automóvil, desde abril las ventas de carros se fueron a pique, dando como resultado una caída del 15,2% y la comercialización de 283.870 unidades. Las marcas se vieron muy golpeadas cuando el dólar pasó de $1.900 a más de $3.000 en menos de un año (Mantilla, 2018).
 
@@ -70,9 +66,9 @@ Para la selección de variables se utiliza el criterio del mejor subconjunto que
 
 ![_config.yml]({{ site.baseurl }}/images/img7.png)
  
-  **-** En la figura 5 el mejor subconjunto es el de la tasa de colocación y el PIB con un rezago, la indicadora de festivos y semana santa y por el lado de los factores los días de la semana y los meses, teniendo asi un R cuadrado del 74%.
+  **-** En la figura 5 se observa que el mejor subconjunto es el de la tasa de colocación y el PIB con un rezago, la indicadora de festivos y semana santa y por el lado de los factores los días de la semana y los meses, teniendo asi un R cuadrado del 74%.
 
-  **-** En la figura 6, el conjunto de variables que tiene el menor BIC es el mismo que el mencionado para el R2 pero incluyendo ademas la TRM rezagada 8 días.
+  **-** En la figura 6 se evidencia que el conjunto de variables que tiene el menor BIC es el mismo que el mencionado para el R2 pero incluyendo ademas la TRM rezagada 8 días.
 
   **-** En la figura 7, el conjunto de variables que tiene el menor Cp de Mallows es el mismo que para el del BIC.
 
@@ -91,7 +87,17 @@ Se decide usar tres metodologias diferentes y ponerlas en competencia para selec
 
 **2.** Modelos lineales generalizados (GLM): familia Poisson.
 
-**3.** Modelos aditivos generalizados para locación, escala y forma (GAMLSS)
+**3.** Modelos aditivos generalizados para locación, escala y forma (GAMLSS): familia ZANBI.
+
+Las familias que se tuvieron en cuenta para los modelos GLM y GAMLSS son discretas, es decir la variable respuesta proviene de  conteos (Amat Rodrigo, 2020).
+
+
+![_config.yml]({{ site.baseurl }}/images/tabla2.png)
+En la tabla 2 se evidencia que para el conjunto de entrenamiento todos los modelos propuestos presentan un R cuadrado superior al 82%, siendo el de mejor desempeño el modelo GLM con un 87.6% para este conjunto. Luego, para el conjunto de validacion se evidencia que el modelo lineal presenta una disminución significativa del R cuadrado con un valor del 66.7% mientras que los modelos GLM y GAMLSS presentan una metrica superior al 75%.
+
+Finalmente se elige el modelo GAMLSS dada sus consistencia entre ambos conjuntos pues su cambio o disminucion en el desempeño es del 8.7%.
+
+
 
 
 ## BIBLIOGRAFIA
@@ -102,6 +108,8 @@ A., L. M. (1989). Determininates de la demanda de vehiculos en Colombia. Bogota.
 Diaz, V. P. (2013). La Republica. 
 
 Mantilla, Ó. J. (2018). El carro colombiano revista virtual. Obtenido de https://www.elcarrocolombiano.com/industria/2010-2018-el-sector-automotor-colombiano-en-tiempos-de-juan-manuel-santos/
+
+Amat Rodrigo, J. (2020). GAMLSS: modelos aditivos generalizados para posición, escala y forma. Recuperado 14 de enero de 2022, de https://rpubs.com/Joaquin_AR/603234 
 
 
 
