@@ -3,9 +3,9 @@ layout: post
 title: Registros de vehículos en el RUNT
 published: true
 ---
-## Introducción
 Este es un trabajo para el curso de aprendizaje estadístico de la universidad Nacional de Colombia sede Medellín, cuyo objetivo es poder construir un modelo estadistico que permita predecir el número de autos registrados diariamente en el Registro Único Nacional de Tránsito (RUNT).
 
+## Introducción
 En el año 2014, tiempo en el que los colombianos se preparaban para ir nuevamente a votaciones para Congreso y Presidente Durante el primer semestre del año, los niveles de comercialización mensuales preveían un cierre de mercado entre las 310.000 a 315.000 unidades. A partir de septiembre, los registros superan los 30.000 ejemplares al mes, llegando a los 32.355 carros entregados en diciembre por efecto del Salón del Automóvil. Así, el promedio por mes fue de 28.305 automotores (Mantilla, 2018). 
 
 A partir del 2015 empezaron los problemas. Aunque el primer trimestre fue bueno gracias al impulso del Salón del Automóvil, desde abril las ventas de carros se fueron a pique, dando como resultado una caída del 15,2% y la comercialización de 283.870 unidades. Las marcas se vieron muy golpeadas cuando el dólar pasó de $1.900 a más de $3.000 en menos de un año (Mantilla, 2018).
@@ -13,7 +13,7 @@ A partir del 2015 empezaron los problemas. Aunque el primer trimestre fue bueno 
 Aunque en 2016 el dólar logró treparse a los $3.400 en el primer trimestre, logró estabilizarse finalmente en el orden de los $3.000. La depreciación de nuestra moneda y la consiguiente alza de la inflación hizo que el Banco de la República, en una decisión tardía, aumentara los intereses al 7,75%. Al hacer costosa la financiación, las matrículas de carros llegaron a 253.698, una disminución de 11,7% (Mantilla, 2018).
 
 
-## DESCRIPCION DE VARIABLES
+## Descripcion de las variables
 **1.** Se decide crear variables a partir de la fecha, obteniendo variables como día, mes y año, también se obtuvo el dia de la semana: lunes, martes, miercoles, jueves, viernes, sabado o domingo.
 
 **2.** Se crearon variables indicadoras para los días festivos, semana santa y para la semana del salón internacional del automovil el cual es celebrado cada dos años. 
@@ -38,7 +38,7 @@ Estas variables macro son registradas con las siguientes periodicidades:
 
 
 
-## ANÁLISIS DESCRIPTIVO
+## Análisis descriptivo
 Se realiza una revisión del comportamiento historico del numero de registros teniendo en cuenta el mes, el dia de la semana y el año. Los resultados obtenidos se muestran a continuación:
 
 ![_config.yml]({{ site.baseurl }}/images/img_1.png)
@@ -77,7 +77,7 @@ Teniendo en cuenta los resultados obtenidos las variables que se incluyen en los
 ![_config.yml]({{ site.baseurl }}/images/tabla1.png)
 
 
-## MODELAMIENTO
+## Modelamiento
 Para hacer las pruebas respectivas al modelo se toma desde 2012 hasta 2016 para hacer el entrenamiento del mismo y el 2017 para hacer la validación. 
 
 Se decide usar tres metodologias diferentes y ponerlas en competencia para seleccionar el modelo con mejor desempeño teniendo en cuenta: R cuadrado para los datos de entrenamiento y validación, la consistencia del mismo para tener en cuenta el criterio de revisión y prevenir que haya una diferencia mayor al 10%.
@@ -100,7 +100,7 @@ Finalmente se elige el modelo GAMLSS dada sus consistencia entre ambos conjuntos
 
 
 
-## BIBLIOGRAFIA
+## Bibliografia
 Banco de la República. (s.f.). Tasa de cambio del peso colombiano. Colombia. Obtenido de https://www.banrep.gov.co/es/glosario/trm
 
 A., L. M. (1989). Determininates de la demanda de vehiculos en Colombia. Bogota.
